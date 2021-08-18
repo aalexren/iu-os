@@ -1,0 +1,25 @@
+  713  ls /usr/bin | grep *gcc* | sort -r > ex1.txt
+  714  ls /usr/bin | grep gcc | sort -r > ex1.txt
+  715  ls
+  716  cat ex1.txt
+  717  cd ..
+  718  git init
+  719  git add .
+  720  ls
+  721  cd week1
+  722  git commit -m "week1"
+  723  git remote add origin git@github.com:aalexren/operating-systems.git
+  724  git push -u origin master
+  725  tail -n 20 | history > ex2.txt
+  726* tldr tail
+  727  ls
+  728  cat ex2.txt
+  729  tail -n 3 | history
+  730  tail -n 3 < history
+  731  history | tail -n 3 > ex2.txt
+  732  ls
+  733  cat ex2.txt
+  734  history | tail -n 25 > ex2.txt
+  735  ls
+  736  cat ex2.txt
+  737  rm ex2.txt
