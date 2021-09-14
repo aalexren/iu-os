@@ -45,12 +45,16 @@ void get_args(char *str, char delim) {
    }
 
    argc = size;
+
+   // for (int i = 0; i < size; ++i) {
+   //    printf("%s\n", args[i]);
+   // }
 }
 
 int main() {
    char* cmd;
 
-   printf("To exit from shell enter the q...\n");
+   printf("To exit from shell enter the exit...\n");
    printf("All commands should not contains newline symbol!\n");
 
    while (1) {
