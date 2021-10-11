@@ -1,0 +1,2 @@
+2^16 bit for virtual address means we have 65536 addresses.
+Assume the computer-word is 1 byte aka 8 bit. Then since every page need keep data, we should distribute all addresses between page table. Totally we should save 65536 * 1 = 65536 bytes of data in the page table. So, now we can get the number of entries 65536 / 8 KB = 65536 bytes = 8 entries. 

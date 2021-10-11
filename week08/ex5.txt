@@ -1,0 +1,1 @@
+Physical address strictly "connected" to the cell on the chip, in the meantime virtual address can differ, moreover there can be much more addresses than physical memory supposed to keep. Virtual space NOT limited by physical size, but virtual one. Virtual address refer to some storage that proccess can view, and it doesn't depend on physical one.
