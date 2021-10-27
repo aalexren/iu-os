@@ -5,7 +5,7 @@
 #include <string.h>
 
 int main() {
-   DIP *dp;
+   DIR *dp;
    struct dirent *entry;
 
    dp = opendir("/");
